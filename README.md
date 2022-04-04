@@ -1,4 +1,4 @@
-# covid19cc - Covid19 Correlation Coefficient Calculator 
+# covid19cc - Covid19 Correlation Coefficient Tracker
 
 **Use Case 1 :** Percentage of people died and vaccinated -> Status : Work in Progress
 
