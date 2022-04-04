@@ -1,6 +1,6 @@
 package nl.amleshapi.controller;
 
-import nl.amleshapi.model.response.VaccinationResponse;
+import nl.amleshapi.exceptions.InternalException;
 import nl.amleshapi.service.Cov19CCCalcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,7 +17,7 @@ public class Cov19CCCalcController {
     Cov19CCCalcService cov19CCCalcService;
 
     @GetMapping("/cov19cc")
-    public Double calculateCov19CorCoeff(@RequestParam("country") String country) throws Exception{
+    public Double calculateCov19CorCoeff(@RequestParam("country") String country) throws InternalException {
         return cov19CCCalcService.calculateCov19CorCoeff(country);
     }
 

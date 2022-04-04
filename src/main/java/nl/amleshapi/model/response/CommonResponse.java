@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode
-public class VaccinationResponse {
+public class CommonResponse {
    Integer peopleVaccinated;
    Integer deaths;
    Integer population;

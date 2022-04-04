@@ -12,9 +12,9 @@ import lombok.NoArgsConstructor;
 public class All{
     public int confirmed;
     public int recovered;
-    public int deaths;
+    public Integer deaths;
     public String country;
-    public int population;
+    public Integer population;
     public int sq_km_area;
     public String life_expectancy;
     public int elevation_in_meters;

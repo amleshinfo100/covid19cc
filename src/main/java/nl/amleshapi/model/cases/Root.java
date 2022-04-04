@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Root{
+public class Root {
     @JsonProperty("All")
     public All all;
 }

@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class All{
     public int administered;
-    public int people_vaccinated;
+    public Integer people_vaccinated;
     public int people_partially_vaccinated;
     public String country;
     public int population;
